@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@200&family=Libre+Franklin:wght@200;400&family=Manrope:wght@700&family=Michroma&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@100;200;300;400;600;700;800;900&family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@200;300;400&family=Space+Grotesk:wght@500&display=swap');
+
+
+#socials {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 6px;
+    grid-row: 6;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 46, 0.95);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-header {
+    /* margin: 0 auto; */
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+.mail-img {
+    width: 1.8rem;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   padding: 1rem;
+   max-width: 24rem;
+}
+
+input {
+    padding: 0.4rem;
+    border-radius: 7px;
+    background-color: #022334;
+    outline: none;
+    border: 2px solid black;
+    color: #e5e5e5; 
+    cursor: default;
+}
+input::placeholder {
+    color: #e5e5e5;
+}
+
+input:focus {
+    background-color: #033853;
+}
+.textarea {
+    border-radius: 7px;
+    background-color: #022334;
+    outline: none;
+    border: 2px solid black;
+    padding: 0.5rem;
+    resize: none;
+    color: #e5e5e5; 
+    cursor: default;
+}
+.textarea:focus {
+    background-color: #033853;
+    color: #e5e5e5; 
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    width: 40%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type='submit']:hover {
+    background-color: #033853;
+}
+
+.socials-about {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   padding: 1rem;
+   margin-bottom: 2rem;
+}
+
+.contact-info {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.info {
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    color: #e5e5e5;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    text-shadow: 30px 10px 10px black;
+    cursor: default;
+}
+
+.info:first-of-type {
+    margin-top: 1rem;
+}
+.info:last-of-type {
+    overflow-wrap: break-word;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #socials {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding-top: 1rem;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+        border-radius: 6px;
+        grid-row: 6;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Source Code Pro', monospace;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin: 0 auto; */
+        /* background-color: rgb(144, 35, 53); */
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 100;
+    }
+    .mail-img {
+        width: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #socials {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Source Code Pro', monospace;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+        border-radius: 6px;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* margin: 0 auto; */
+        /* background-color: rgb(144, 35, 53); */
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 100;
+    }
+    .mail-img {
+        width: 1.8rem;
+    }
+}

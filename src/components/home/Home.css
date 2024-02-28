@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@200&family=Libre+Franklin:wght@200;400&family=Manrope:wght@700&family=Michroma&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@100;200;300;400;600;700;800;900&family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@200;300;400&family=Space+Grotesk:wght@500&display=swap');
+
+#home {
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -11;
+}
+
+.home h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.frontend {
+    width: 250px;
+    text-align: end;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.htmlTag {
+    color: #c678dd;
+    font-weight: 400;
+}
+
+.my-photo-div {
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 50%;
+    /* box-shadow: 15px -5px 15px 4px rgb(16,16,26) inset; */
+}
+
+.my-photo {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: -10px -10px 14px 20px rgb(16,16,26);
+    border: 1px solid rgb(16,16,26);
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Source Code Pro', monospace;
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    line-height: 1.3rem;
+    text-align: end;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #e5e5e5;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn:hover .btn-img {
+    fill: #FFFFfF;
+}
+
+.btn-img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+/* waving hand */
+.header {
+    font-size: 5rem;
+}
+.wave {
+    font-size: 3rem;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+/* waving hand end*/
+
+
+/* GO UP btn styling */
+.go-up-btn {
+    background-color: transparent;
+    border: none;
+    position: fixed;  
+    width: 100%; 
+    left: 85%;
+    bottom: 50px; 
+    height: 20px; 
+    /* font-size: 2.5rem;  */
+    z-index: 1; 
+    cursor: pointer; 
+}
+
+.go-up-btn-img {
+    width: 2.5rem;
+}
+
+
+.go-up-btn-img:hover {
+    width: 2.6rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+        /* height: 100vh; */
+    }
+    .about {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        padding: 3rem;
+        margin: 0 auto;
+        color: #e5e5e5;
+    }
+
+    .about-text {
+        align-items: right;
+    }
+
+   .home h1 {
+        font-weight: 300;
+        font-size: 2.5rem;
+        margin-top: 5rem;
+        font-weight: bold;
+    }
+
+
+    .frontend {
+        width: 400px;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 13rem;
+    }
+
+
+    .text-div {
+        width: 80%;
+    }
+
+    .text {
+        width: 50%;
+        margin-left: 10rem;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: right;
+        align-items: left;
+        margin-top: -8rem;
+    }
+
+    .my-photo-div {
+        width: 20%;
+    }
+
+    .my-photo{
+        margin: 0 auto;
+        margin-top: 6rem;
+        margin-left: 20px;
+        border-radius: 50%;
+    }
+
+    .button {
+        width: 50%;
+    }
+    .btn {
+        margin-top: 1rem;
+        margin-right: 0rem;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .go-up-btn {
+        left: 95%;
+    }
+} 
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+    .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 0px;
+    }
+
+    .home h1 {
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    .frontend {
+        margin-top: 2rem;
+        text-align: left;
+        width: 250px;
+        font-size: 1.4rem;
+    }
+
+    .my-photo {
+        width: 300px;
+        border-radius: 50%;
+        box-shadow: -10px -10px 14px 20px rgb(16,16,26);
+        border: 1px solid rgb(16,16,26);
+        margin-top: 2rem;
+    }
+
+    .text {
+        width: 60%;
+        margin: 0 auto;
+        margin-right: 2rem;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+
+    .btn {
+
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+}
