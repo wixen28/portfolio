@@ -33,10 +33,10 @@ const Socials = () => {
         <div className="contacts">
             <form action="" className='form' ref={form} onSubmit={sendEmail}>
                 <h2 className="contact-header">Send me an email<img src={mail3} className='mail-img'></img></h2>
-                <input type="text" placeholder='Full name *' name='user_name' />
-                <input type="email" placeholder='Email adress *' name='user_email' />
+                <input type="text" placeholder='Full name *' name='user_name' required/>
+                <input type="email" placeholder='Email adress *' name='user_email' required />
                 <input type="text " placeholder='Subject' name='subject' />
-                <textarea name="message" className='textarea' id="" cols="30" rows="5"></textarea>
+                <textarea name="message" className='textarea' id="" cols="30" rows="5" required></textarea>
                 <input type="submit" name="form-btn" id="" />
             </form>
             <div className="socials-about">
