@@ -1,0 +1,153 @@
+
+[
+    {
+        "id": "project-1",
+        "name": "Splitter App",
+        "image": "images/splitter-app-desktop.png",
+        "websiteLink": "https://splitter-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/splitter-app/tree/main/splitter-app",
+        "moreInfo": {
+            "description": "This website is for splitting your bill with your friends. Users can also select the tip from default options or add a custom one. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/splitter-app-mobile1.png"
+        }
+    },
+    {
+        "id": "project-2",
+        "name": "task manager app",
+        "image": "images/task-manager.png",
+        "websiteLink": "https://taskmanager-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/my-todo-app",
+        "moreInfo": {
+            "description": "App for managing your daily tasks. Users can edit or remove the tasks and they are also saved to local storage therefore the tasks will remain present on the page after refreshing it.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/task-manager-mobile.png"
+        }
+    },
+    {
+        "id": "project-3",
+        "name": "weather app",
+        "image": "images/weather-app.png",
+        "websiteLink": "https://weather-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/weather-app",
+        "moreInfo": {
+            "description": "App for showing what is the current temperature of specific city. The app also contains current humidity and wind speed in the city. In the desktop view users are able to see photo of chosen city as the background image.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/weather-app-mobile.png"
+        }
+    },
+    {
+        "id": "project-4",
+        "name": "password generator",
+        "image": "images/password-generator.png",
+        "websiteLink": "https://password-generator-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/password-generator/tree/main/password-generator",
+        "moreInfo": {
+            "description": "Users can generate two unique passwords and copy them to clipboard separately so they can use them elsewhere.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/password-generator-mobile.png"
+        }
+    },
+    {
+        "id": "project-5",
+        "name": "Space Tourism",
+        "image": "images/space-tourism-desktop.png",
+        "websiteLink": "https://space-tourism-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/space-tourism",
+        "moreInfo": {
+            "description": "This website shows information about different planets, crew and also technologies. It was created with react.js and the data for this project is from external JSON file.",
+            "technologies": ["HTML", "CSS", "React"],
+            "mobileImage": "images/space-tourism-mobile1.png"
+        }
+    },
+    {
+        "id": "project-6",
+        "name": "Crowdfunding page",
+        "image": "images/crowdfund-page-desktop.png",
+        "websiteLink": "https://crowdfunding-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/crowdfunding-page",
+        "moreInfo": {
+            "description": "This website let users choose from various editions of product and select your own pledge. You can also bookmark this page.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/crowdfund-page-mobile1.png"
+        }
+    },
+    {
+        "id": "project-7",
+        "name": "age calculator",
+        "image": "images/age-calculator-app.png",
+        "websiteLink": "https://age-calculator-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/age-calculato",
+        "moreInfo": {
+            "description": "With this age calculator application users can see how many years, months and days has passed from the day they were born. App also has fields validation for all the inputs.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/age-calculator-app-mobile.png"
+        }
+    },
+    {
+        "id": "project-8",
+        "name": "interactive card details",
+        "image": "images/interactive-card-website.png",
+        "altText": "splitter-app",
+        "websiteLink": "https://interactive-card-website.netlify.app/",
+        "codeLink": "https://github.com/wixen28/interactive-card-details/tree/main/interactive-card-details-form-main/images",
+        "moreInfo": {
+            "description": "By using this website you can add your card details and see them in the interactive card preview.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/interactive-card-website-mobile.png"
+        }
+    },
+    {
+        "id": "project-9",
+        "name": "rent a car website",
+        "image": "images/car-website.png",
+        "altText": "splitter-app",
+        "websiteLink": "https://car-rental-adventureland.netlify.app/",
+        "codeLink": "https://github.com/wixen28/car-rent-website/tree/main/car-rental-website",
+        "moreInfo": {
+            "description": "Users can use this website for renting a car for their adventure. They can choose start and end date of the rental. They also can choose from three different types of cars and see their prices for specific duration of the rental and also sign into their account and see their order.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/car-website-mobile.png"
+        }
+    },
+    {
+        "id": "project-10",
+        "name": "notification page",
+        "image": "images/notification-page.png",
+        "altText": "splitter-app",
+        "websiteLink": "https://notification-page-app.netlify.app/",
+        "codeLink": "https://github.com/wixen28/notification-page",
+        "moreInfo": {
+            "description": "This page is showing all received notifications. Users can see number of notifications and also read them all with one click.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/notification-page-mobile.png"
+        }
+    },
+    {
+        "id": "project-11",
+        "name": "ecommerce website",
+        "image": "images/ecommerce-website.png",
+        "altText": "splitter-app",
+        "websiteLink": "https://ecommerce-website-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/ecommerce-page",
+        "moreInfo": {
+            "description": "This ecommerce website allow users to switch large product image by clicking on the thumbnail and also open lightbox galery and switching thourgh them by clicking on previous/next button. Users can add up to ten items into cart and see final price for their purchase by opening the cart.  Also they can empty the cart by clicking on the trashcan icon.",
+            "technologies": ["HTML", "CSS", "React"],
+            "mobileImage": "images/ecommerce-website-mobile2.png"
+        }
+    },
+    {
+        "id": "project-12",
+        "name": "pricing component",
+        "image": "images/pricing-comonent-desktop.png",
+        "altText": "splitter-app",
+        "websiteLink": "https://pricing-component-appka.netlify.app/",
+        "codeLink": "https://github.com/wixen28/pricing-component",
+        "moreInfo": {
+            "description": "In this pricing component website user can choose from few different billing options, see how much of pageviews is there available in their membership and also choose yearly billing option with 25% discount for prices.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "mobileImage": "images/pricing-component-mobile.png"
+        }
+    }
+    
+]
