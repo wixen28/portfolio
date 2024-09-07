@@ -20,34 +20,29 @@ const App = () => {
       }, 3000)
     }, [])
 
-
   return <div className="App">
-    {
-      loading ? (
-        <BarLoader
-      color={'#36d7b7'}
-      loading={loading}
-      size={150}
-      width={150}
-      height={5}
-      aria-label="Loading Spinner"
-      data-testid="loader"
-      className="loading"
-  />
-
-      ) : ( <div>
-
-        <Navbar />
-        <Home />
-        <Skills />
-        <Projects />
-        <Socials />
-        <Footer />
+    {loading ? (
+      <BarLoader
+        color={'#36d7b7'}
+        loading={loading}
+        size={150}
+        width={150}
+        height={5}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+        className="loading"
+        />
+      ) : ( 
+        <div>
+          <Navbar />
+          <Home />
+          <Skills />
+          <Projects />
+          <Socials />
+          <Footer />
         </div>
       )
-
     }
-   
   </div>
 }
 

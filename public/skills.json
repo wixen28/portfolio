@@ -1,0 +1,62 @@
+[
+  {
+    "id": "skill-1",
+    "name": "HTML",
+    "logo": "images/html-logo.png",
+    "progress": "90"
+  },
+  {
+    "id": "skill-2",
+    "name": "CSS",
+    "logo": "images/css-logo.png",
+    "progress": "90"
+  },
+  {
+    "id": "skill-3",
+    "name": "JavaScript",
+    "logo": "images/js-logo.png",
+    "progress": "70"
+  },
+  {
+    "id": "skill-4",
+    "name": "React",
+    "logo": "images/react-logo.png",
+    "progress": "80"
+  },
+  {
+    "id": "skill-5",
+    "name": "Node.js",
+    "logo": "images/nodejs-logo.png",
+    "progress": "40"
+  },
+  {
+    "id": "skill-6",
+    "name": "Express.js",
+    "logo": "images/express-white-logo.png",
+    "progress": "50"
+  },
+  {
+    "id": "skill-7",
+    "name": "GitLab",
+    "logo": "images/gitlab-logo.png",
+    "progress": "80"
+  },
+  {
+    "id": "skill-8",
+    "name": "GitHub",
+    "logo": "images/github-logo.png",
+    "progress": "100"
+  },
+  {
+    "id": "skill-9",
+    "name": "MongoDB",
+    "logo": "images/mongodb.png",
+    "progress": "40"
+  },
+  {
+    "id": "skill-10",
+    "name": "Figma",
+    "logo": "images/figma-logo.png",
+    "progress": "80"
+  }
+]
