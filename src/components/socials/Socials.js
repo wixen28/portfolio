@@ -3,29 +3,28 @@
 import './Socials.css'
 import mail3 from '../../images/mail3.png'
 import {useRef} from 'react'
-import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser'
 
 
 const Socials = () => {
     const form = useRef()
 
     const sendEmail = (e) => {
-        e.preventDefault();
-    
+        e.preventDefault()
         emailjs
           .sendForm('service_ryehyho', 'template_x331hlt', form.current, {
             publicKey: '36ntzC0NSBE3PqgqQ',
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+              console.log('SUCCESS!')
             },
             (error) => {
-              console.log('FAILED...', error.text);
+              console.log('FAILED...', error.text)
             },
-          );
+          )
           e.target.reset()
-      };
+      }
 
   return (
   <div id='socials'>
